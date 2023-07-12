@@ -27,6 +27,9 @@ class A{
 };
 int main(){
     A obj(1,2,3);
+    obj.display();
+    -obj;
+    obj.display();
     -obj;
     obj.display();
     return 0;
