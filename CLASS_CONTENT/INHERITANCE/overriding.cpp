@@ -16,7 +16,7 @@ class derived : public base{
     public:
     int i,j;
 
-    void print(){
+    void display(){
         cout<<"This is the print function of derived class";
     }
 
@@ -26,8 +26,8 @@ class derived : public base{
 int main(){
     base b1;
     derived d1;
-   d1.print();
-//    b1.print();
+    // b1.display();    This is error
+     b1.print();
     return 0;
 
 }
