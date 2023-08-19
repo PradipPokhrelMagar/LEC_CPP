@@ -5,28 +5,29 @@ class A{
     int data;
     void getdata(){
         cout<<"Enter the value of data:";
-        cin>>"data";
+        cin>>data;
         
-    };
-    cout<<"\n The value of data is:","data";
-
+    
+    cout<<" The value of data is:"<<data<<endl;
+    }
 };
 class B{
     public:
     A a;
-    int b;
+    int  b;
     void getdata(){
         
 
         cout<<"Enter the value of b";
         cin>>b;
         a.getdata();
-    };
+    }
     void showdata(){
-        a.showdata();
+        
+    
     
     cout<<"The value of b is:",b;
-    };
+    }
 
     
 
